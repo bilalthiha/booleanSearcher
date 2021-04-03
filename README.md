@@ -8,7 +8,7 @@ This python program (booleanSearcher) implements the search component of an info
 
 Input to the program:
 1. Search query 
-2. File path of the inverted index file
+2. Path of the inverted index file (E.g C:\Test\out_invertedIndex.txt)
 3. Boolean operation type (1 for AND, 2 for OR, 3 for AND)
 4. Compression type (0 for No Compression, 1 for Dictionary-As-String)
 
