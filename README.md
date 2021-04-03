@@ -20,6 +20,7 @@ Download this package (booleanSearcher) from GitHub (easy as a zip file). Save a
 Note: An example input inverted index is available in the package as "out_invertedIndex.zip" for use.
 Install Python 3.8.0 or above from https://www.python.org/downloads/.
 Install Natural Language Toolkit from https://www.nltk.org/ Note: A reference tutorial of NLTK can be found in this YouTube video. https://www.youtube.com/watch?v=FLZvOKSCkxY
+
 ==========HOW TO RUN THE PROGRAM=============
 
 1. Launch the command line. E.g For Windows, press Window Key + R on keyboard and then type 'cmd'
