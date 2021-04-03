@@ -162,8 +162,20 @@ def operateBoolean(procQryTxtLst, opType):
                 posting1 = operateOR(posting1, posting2)   
         result = posting1        
     return result
+    
+def getOpTypeText(opType):
+    opTypeText = ''
+    if (opType == 1):
+        opTypeText = 'AND'
+    elif (opType == 2):
+        opTypeText = 'OR'
+    elif (opType == 3):
+        opTypeText = 'NOT'
+    else:
+        opTypeText = 'Invalid'
+    return opTypeText
 
-def outputQueryResult(qryText, comprMode, docLst, descFileName, ttlTime):    
+def outputQueryResult(qryText, comprMode, opType, docLst, descFileName, ttlTime):    
     resultFile = open(descFileName, 'w', encoding ='utf-8')
     #update search time
     resultFile.write('Time taken for search (in seconds): '+ttlTime+ '\n')
@@ -172,6 +184,7 @@ def outputQueryResult(qryText, comprMode, docLst, descFileName, ttlTime):
     resultFile.write('Index size in memory (in bytes): ' + str(compressor.getIndexSizeInMemory()) + '\n')
     #update query result list (document list)
     resultFile.write('\n\n')
+    resultFile.write('For given query operation type: ' + getOpTypeText(int(opType)) + '\n')
     resultFile.write('For given query text: ' + qryText + '\n')
     resultFile.write('Total number of document hits: ' + str(len(docLst)) + '\n')
     resultFile.write('Query Result (document list) is as follows:\n')

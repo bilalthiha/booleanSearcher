@@ -54,7 +54,7 @@ endSearchTime = time.time()
 totalSearchTime = endSearchTime-startSearchTime
 
 #4. Store doc list in output query result file
-queryProcessor.outputQueryResult(queryText, compressionMode, docList, outFileName, str(totalSearchTime))
+queryProcessor.outputQueryResult(queryText, compressionMode, operationType, docList, outFileName, str(totalSearchTime))
 print('\nPlease find the query results in\n' + outFileName + ' under the directory\n' + str(Path.cwd()))
 
 #5. Store Misc Info and DeInit Program
