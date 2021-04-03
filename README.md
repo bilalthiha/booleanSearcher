@@ -16,7 +16,7 @@ Output of the program: A text file containing search query results, out_queryRes
 
 ==========ENVIRONMENT SET-UP=============
 
-Download this indexing package (indexingMod) from GitHub (easy as a zip file). Save and unzip it in a preferred directory in your machine (e.g "C:\Test\booleanSearch") 
+Download this package (booleanSearcher) from GitHub (easy as a zip file). Save and unzip it in a preferred directory in your machine (e.g "C:\Test\booleanSearch") 
 Note: An example input inverted index is available in the package as "out_invertedIndex.zip" for use.
 Install Python 3.8.0 or above from https://www.python.org/downloads/.
 Install Natural Language Toolkit from https://www.nltk.org/ Note: A reference tutorial of NLTK can be found in this YouTube video. https://www.youtube.com/watch?v=FLZvOKSCkxY
@@ -26,4 +26,4 @@ Install Natural Language Toolkit from https://www.nltk.org/ Note: A reference tu
 2. Change current directory in the command line to the python path of this package. E.g for Windows "cd C:\Test\booleanSearcher"
 3. Get the path of python installation on your machine. E.g For Windows, "C:\Users\YourUserId\AppData\Local\Programs\Python\Python38-32"
 4. Run this python program. E.g For Windows, "C:\Users\YourUserId\AppData\Local\Programs\Python\Python38-32\python searcherMain.py"
-5. Find the program output file which contains the query results and statistics under the same path as the program. E.g "C:\Test\booleanSearcher"
+5. Find the program output file which contains the query results and statistics under the same path as the program. E.g "C:\Test\booleanSearcher\out_queryResult.txt"
