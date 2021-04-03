@@ -16,10 +16,10 @@ Output of the program: A text file containing search query results, out_queryRes
 
 ==========ENVIRONMENT SET-UP=============
 
-Download this package (booleanSearcher) from GitHub (easy as a zip file). Save and unzip it in a preferred directory in your machine (e.g "C:\Test\booleanSearch") 
-Note: An example input inverted index is available in the package as "out_invertedIndex.zip" for use.
-Install Python 3.8.0 or above from https://www.python.org/downloads/.
-Install Natural Language Toolkit from https://www.nltk.org/ Note: A reference tutorial of NLTK can be found in this YouTube video. https://www.youtube.com/watch?v=FLZvOKSCkxY
+1. Download this package (booleanSearcher) from GitHub (easy as a zip file). Save and unzip it in a preferred directory in your machine (e.g "C:\Test\booleanSearch") 
+2. Note: An example input inverted index is available in the package as "out_invertedIndex.zip" for use.
+3. Install Python 3.8.0 or above from https://www.python.org/downloads/.
+4. Install Natural Language Toolkit from https://www.nltk.org/ Note: A reference tutorial of NLTK can be found in this YouTube video. https://www.youtube.com/watch?v=FLZvOKSCkxY
 
 ==========HOW TO RUN THE PROGRAM=============
 
